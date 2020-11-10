@@ -10,7 +10,7 @@ int main(){
     cout<<"\nВведіть ціле значення N, до якого плануєте розраховувати суму: "; cin>>n;
     float Sum=0;
     float factorial=1;
-    float expression;
+    float expression=1;
     for (int i=0; i<=n; i++){
         for (int j=1; j<=2*i; j++){
             factorial=factorial*j;
