@@ -8,8 +8,8 @@ for i in range(0, n+1):
     expression=(-1)**i*(x**(2*i)/factorial)
     factorial=1
     Sum=Sum+expression
-    print("При N = %-d значення виразу дорівнює: %-40.35f"%(i, expression))#для зручності перевірки даних
-print("Сума дорівнює %40.35f"%Sum)
+    print("При N = %-d значення суми дорівнює: %-10.18f"%(i, expression))#для зручності перевірки даних
+print("Сума дорівнює %10.18f"%Sum)
 
 
 
